@@ -1,0 +1,11 @@
+/* Default font size for larger screens */
+.typer-text {
+    font-size: 4em;
+  }
+  
+  /* Adjust font size for mobile devices */
+  @media (max-width: 480px) {
+    .typer-text {
+      font-size: 1.313em; /* Smaller font size for mobile */
+    }
+  }

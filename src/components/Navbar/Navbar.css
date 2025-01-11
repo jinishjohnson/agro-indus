@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed; /* Sticks the Navbar at the top of the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Spans the full width */
+    z-index: 1000; /* High enough to ensure visibility over other elements */
+    background-color: rgba(118, 118, 118, 0); /* Optional: Set a background color for visibility */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+  }
+  
+
+
+.links li {
+    position: relative;
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    text-align: left;
+    /* Align text to the left */
+    width: auto;
+    /* Allow text to adjust dynamically */
+    padding: 8px 16px;
+    /* Adjust padding for spacing */
+    transition: ease-in-out 0.2s;
+    /* background-color: #f8f9fa; */
+    /* Optional background for better visibility */
+    color: #333;
+    /* Text color */
+    z-index: 1050;
+}
+
+.links li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #85A947;
+    /* Customize the color of the underline */
+    transition: width 0.3s ease-in-out;
+    z-index: 1050;
+}
+
+.links li:hover::after {
+    width: 100%;
+    /* Expands the underline to the full width on hover */
+}
