@@ -26,7 +26,7 @@ const Bod = () => {
       </section>
       <section>
         <div className="container px-4 sm:px-6 md:px-10 lg:px-10 xl:px-12 2xl:px-16 my-10 sm:my-12 md:my-16 lg:my-20 xl:my-24 mx-auto">
-          <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-2 max-xl:grid-cols-2 gap-4">
             <div className="col">
               <img src={Nopro} alt="" className="rounded-2xl" />
                <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-center text-[#123545] capitalize bg-[#EFE3C2] py-4 sm:py-5 md:py-6 lg:py-6 xl:py-6 -my-5 sm:-my-6 md:-my-4 lg:-my-4 xl:-my-4 rounded-xl"> name of the person1</p>

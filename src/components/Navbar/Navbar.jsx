@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { AiFillCaretDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { assets } from "../../assets/asset";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,9 +45,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between p-4 text-dark bg-transparent">
+      <div className=" flex items-center justify-between p-1 text-dark">
         <div className="text-xl font-bold cursor-pointer">
-          <a href="/">LOGO</a>
+          <a href="/"><img src={assets.logo} alt="" className="w-20 max-sm:w-12" /></a>
         </div>
         <div className="hidden md:flex links">
           <ul className="flex space-x-4 cursor-pointer">

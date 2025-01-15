@@ -1,3 +1,4 @@
+import logo from "./kannammalogo.png"
 import ImgTrade from "./AgroProduct.jpg";
 import ImgTrade2 from "./solar.jpg";
 import ImgTrade3 from "./fabricated.jpg";
@@ -13,7 +14,7 @@ import HoverIcon1 from "./hoverimg2.png"
 import HoverIcon2 from "./hoverimg3.png"
 import HoverIcon3 from "./hoverimg4.png"
 import Veg from "./Vegs.jpg"
-import Pur from "./Pure.jpg"
+import Pur from "./pure.jpg"
 import Hen from "./hen.jpg"
 import Fertilier from "./fertiliser.jpg"
 import Fruit from "./fruits.jpg"
@@ -217,4 +218,5 @@ export const Address =[
 export const assets = {
   ImgSer,
   PopImg,
+  logo,
 };
